@@ -1,18 +1,6 @@
 digraph G{ 
 node[shape=box];
 subgraph cluster_0{
-5[label= "ID: 5"];
-5[label= "ID: 5"];10[label= "ID: 10"];
-10[label= "ID: 10"];30[label= "ID: 30"];
-30[label= "ID: 30"];2[label= "ID: 2"];
-2[label= "ID: 2"];19[label= "ID: 19"];
-2[label= "ID: 2"];20[label= "ID: 20"];
-20[label= "ID: 20"];3[label= "ID: 3"];
-30[label= "ID: 30"];47[label= "ID: 47"];
-47[label= "ID: 47"];4[label= "ID: 4"];
-5[label= "ID: 5"];96[label= "ID: 96"];
-96[label= "ID: 96"];63[label= "ID: 63"];
-63[label= "ID: 63"];85[label= "ID: 85"];
 5
 5->10
 10->30
@@ -26,6 +14,6 @@ subgraph cluster_0{
 96->63
 63->85
 
-label="AVL"
+label="SPL "
 }
 }

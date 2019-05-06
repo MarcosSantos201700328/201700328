@@ -288,7 +288,7 @@ if(f==NULL){
     archivo << t->clave<<endl;
     archivo<<"->"<<endl;
     archivo << "}" << endl;
-
+     archivo<<"label=\"SPL\""<<endl;
     //---------------------Aqui termina el archivo----------------
 
     archivo.close();
@@ -409,6 +409,7 @@ if(f==NULL){
     archivo << "node[shape = box];" << endl;
     archivo << t->clave<<endl;
     archivo << "}" << endl;
+     archivo<<"label=\"ARREGLO\""<<endl;
 
     //---------------------Aqui termina el archivo----------------
 
